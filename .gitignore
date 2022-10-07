@@ -3,6 +3,7 @@ workspace/
 
 # Build directory
 build/
+/cmake-build-debug/
 
 # clangd cache and code completion files
 .cache
@@ -10,3 +11,11 @@ compile_commands.json
 
 # Blender temporary files
 *.blend1
+
+# Clion project files
+/.idea/
+/CMakeSettings.json
+
+#Visual Studio project files.
+/.vs/
+
